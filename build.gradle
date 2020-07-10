@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.lsh'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.intellij', name: 'forms_rt', version: '7.0.3'
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PostToGetWindow">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="600"/>
+    </constraints>
+    <properties>
+      <minimumSize width="800" height="600"/>
+      <preferredSize width="800" height="600"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="2b987" class="javax.swing.JLabel" binding="urlDesc">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="1.0"/>
+          <text value="请输入要转换的url:"/>
+          <toolTipText value="不带/"/>
+        </properties>
+      </component>
+      <component id="9757e" class="javax.swing.JTextField" binding="inputUrl">
+        <constraints/>
+        <properties>
+          <margin top="3" left="8" bottom="3" right="8"/>
+          <opaque value="false"/>
+          <preferredSize width="630" height="38"/>
+        </properties>
+      </component>
+      <grid id="cb461" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <minimumSize width="800" height="24"/>
+          <preferredSize width="785" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="ab42a">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b10e5" class="javax.swing.JTextArea" binding="inputRequestParams">
+                <constraints/>
+                <properties>
+                  <toolTipText value="请输入要格式化的参数(从Charles拷贝出来的)"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="9761a">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c7ad8" class="javax.swing.JTextArea" binding="formatResult">
+                <constraints/>
+                <properties>
+                  <toolTipText value="生成的结果"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="e4016" binding="buttonLayout" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="785" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f935e" class="javax.swing.JButton" binding="formatParams">
+            <constraints/>
+            <properties>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="格式化参数"/>
+            </properties>
+          </component>
+          <component id="1e30" class="javax.swing.JButton" binding="btnGetResult">
+            <constraints/>
+            <properties>
+              <opaque value="true"/>
+              <text value="生成GET请求"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
