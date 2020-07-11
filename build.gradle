@@ -12,4 +12,8 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'com.intellij', name: 'forms_rt', version: '7.0.3'
+    compile 'com.alibaba:fastjson:1.2.70'
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+    compile group: 'org.swinglabs', name: 'swingx', version: '1.6.1'
+
 }

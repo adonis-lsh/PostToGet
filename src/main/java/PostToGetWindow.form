@@ -43,7 +43,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="b10e5" class="javax.swing.JTextArea" binding="inputRequestParams">
+              <component id="b10e5" class="javax.swing.JTextArea" binding="formatResult">
                 <constraints/>
                 <properties>
                   <toolTipText value="请输入要格式化的参数(从Charles拷贝出来的)"/>
@@ -58,7 +58,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="c7ad8" class="javax.swing.JTextArea" binding="formatResult">
+              <component id="c7ad8" class="javax.swing.JTextArea" binding="inputRequestParams">
                 <constraints/>
                 <properties>
                   <toolTipText value="生成的结果"/>
