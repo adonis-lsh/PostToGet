@@ -29,7 +29,7 @@ public class PostToGetWindow {
     public static void main(String[] args) {
         double width = Toolkit.getDefaultToolkit().getScreenSize().getWidth();
         double height = Toolkit.getDefaultToolkit().getScreenSize().getHeight();
-        JFrame frame = new JFrame("销售易专用小工具");
+        JFrame frame = new JFrame("销售易专用小工具-author:lsh");
         JPanel rootPanel = new PostToGetWindow().rootPanel;
         frame.setContentPane(rootPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
